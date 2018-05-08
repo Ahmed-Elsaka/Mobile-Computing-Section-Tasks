@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GyroScope Values"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+    <!-- x Values -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:paddingBottom="25px"
+            android:text="Pitch ="
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/ptxtview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:paddingBottom="25px"
+            android:text="Pitch Value"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+
+    <!-- Y Values -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:paddingBottom="25px"
+            android:text="Roll ="
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/rtxtview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:paddingBottom="25px"
+            android:text="Roll Value"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <!-- Z Values -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:paddingBottom="25px"
+            android:text="Yaw ="
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/ytxtview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:paddingBottom="25px"
+            android:text="Yaw Value"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:onClick="saveOnclick"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:onClick="stopOnclick"
+        android:text="Stop" />
+
+
+</LinearLayout>

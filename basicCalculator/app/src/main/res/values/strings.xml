@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Task1-calculator-using-intent</string>
+    <string name="task1">First Task</string>
+    <string name="button_cal">Go to Calculator </string>
+    <string name="button_openlink">Google</string>
+    <string name="button_about">About</string>
+    <string name="number_1">Enter First Number</string>
+    <string name="number_2">Enter Second Number</string>
+    <string name="add">Add</string>
+    <string name="result">Result</string>
+
+</resources>
